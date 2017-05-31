@@ -36,6 +36,9 @@ function createWindow() {
         // Dereference the window object
         mainWindow = null
     });
+
+    //register the listener for keystrocks
+    listenToKeystrockes();
 };
 
 // This method will be called when Electron has finished
